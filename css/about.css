@@ -114,3 +114,51 @@ nav a:hover {
     width: 800px;
     margin: 0 auto;
 }
+.top-level {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* cards */
+
+.services {
+	padding: 10px;
+}
+
+.card-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 10px;
+	padding: 10px;
+}
+
+.card {
+	border-bottom: 1px dashed black;
+	width: 48%;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.card-row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px;
+	width: 104%;
+}
+
+.card button {
+    border-radius: 9%;
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+}
