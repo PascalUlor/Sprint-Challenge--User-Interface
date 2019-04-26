@@ -101,7 +101,7 @@ nav {
 
 /* cover image*/
 #cover-image {
-	background: #fff url('../img/jumbo.jpg') center center no-repeat;
+	background: #fff url('../img/jumbo-about.png') center center no-repeat;
 	color: white;
 	height: 30vh;
 	text-align: center;
@@ -114,14 +114,8 @@ nav {
     width: 800px;
     margin: 0 auto;
 }
-h2 {
-    font-weight: bolder;
-}
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.top-level {
+    padding: 10px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -132,151 +126,111 @@ h2 {
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-.a {
-    background: teal;
-}
-.b {
-    background: gold;
-}
-.c {
-    background: cadetblue;
-}
-.d {
-    background: coral;
-}
-.e {
-    background: crimson;
-}
-.f {
-    background: forestgreen;
-}
-.g {
-    background: darkorchid;
-}
-.h {
-    background: hotpink;
-}
-.i {
-    background: indigo;
-}
-.j {
-    background: dodgerblue;
+/* cards */
+
+.services {
+	padding: 10px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.card-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 10px;
+	padding: 10px;
 }
 
-.middle-content .boxes {
+.card {
+	border-bottom: 1px dashed black;
+	width: 48%;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.card-row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 10px;
+	width: 104%;
+}
+
+/*Image styles*/
+.img-zoom {
+    position: relative;
+    overflow: hidden;
+}
+.img-zoom:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+.img-zoom img {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.card button {
+    border-radius: 9%;
+    border: 1px solid black;
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.bottom-text {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+	margin: 25px;
+	width: 96%
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    /* background: black; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
+/* media query */
 
 @media only screen and (max-width: 992px) {
-	.logo-container {
-		padding: 10px;
-		margin: auto;
-		vertical-align: middle;
+	#cover-image {
+		margin-top: 8rem;
 	}
-	header {
-		padding: 5px;
-		margin-top: -19px;
+	/* cards */
+	.card-section {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: space-between;
-		flex-wrap: wrap;
-		flex-shrink: inherit;
-		width: 92%;
 	}
-	nav {
+	.card {
+		width: 100%;
+		margin-top: 10px;
+    }
+    .card img {
+        width: 85%;
+        margin: auto;
+        padding: 10px;
+    }
+	.card-row {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+	.card button {
+        margin: 10px;
+	}
+	.facts-section {
+		margin: 10px;
+	}
+	.bottom-text {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		align-items: flex-start;
-		height: 154px;
+		justify-content: space-around;
+		margin: 25px;
+		width: 96%
 	}
-	nav a {
-		padding: 15px 15px 15px 0;
-		margin: -11px 33px -13px 0;
+	.bottom-text p, .card p {
+		width: 85%
 	}
-	.container {
-		padding: 20px;
-		margin: auto;
-		width: 96%;
-	}
-	.main-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		margin-top: 165px;
-		flex-shrink: inherit;
-	}
-	.main-content img {
-		margin: auto;
-	}
-	
-	.main-text {
-		text-align: center;
-		margin: auto;
-	}
-	.top-details, .bottom-details {
-		flex-direction: column;
-		justify-content: center;
-	}
-	.features-section, .about-section {
-		width: 96%;
-	}
-	
-	.services-section, .product-section, .vision-section {
-		width: 96%;
+	li {
+		list-style-type: disc;
 	}
 }
