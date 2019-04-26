@@ -71,7 +71,6 @@ header {
     align-items: center;
     justify-content: space-between;
 	padding: 10px;
-	margin-bottom: 50px;
 	z-index: 1;
 	margin-top: -19px;
 }
@@ -100,8 +99,15 @@ nav a:hover {
 	border-bottom: 1px solid #000;
 }
 
+/* cover image*/
 #cover-image {
-    margin-bottom: 100px;
+	background: #fff url('../img/jumbo.jpg') center center no-repeat;
+	color: white;
+	height: 30vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	padding: 1.4rem;
 }
 
 .container {
