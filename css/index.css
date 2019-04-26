@@ -114,6 +114,9 @@ nav a:hover {
     width: 800px;
     margin: 0 auto;
 }
+h2 {
+    font-weight: bolder;
+}
 
 .top-content {
     display: flex;
@@ -133,6 +136,36 @@ nav a:hover {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.a {
+    background: teal;
+}
+.b {
+    background: gold;
+}
+.c {
+    background: cadetblue;
+}
+.d {
+    background: coral;
+}
+.e {
+    background: crimson;
+}
+.f {
+    background: forestgreen;
+}
+.g {
+    background: darkorchid;
+}
+.h {
+    background: hotpink;
+}
+.i {
+    background: indigo;
+}
+.j {
+    background: dodgerblue;
+}
 
 .middle-content h2 {
     padding: 0 2%;
@@ -148,7 +181,7 @@ nav a:hover {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
