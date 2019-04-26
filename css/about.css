@@ -169,3 +169,51 @@ nav {
 	margin: 25px;
 	width: 96%
 }
+
+/* media query */
+
+@media only screen and (max-width: 992px) {
+	#cover-image {
+		margin-top: 8rem;
+	}
+	/* cards */
+	.card-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.card {
+		width: 100%;
+		margin-top: 10px;
+    }
+    .card img {
+        width: 85%;
+        margin: auto;
+        padding: 10px;
+    }
+	.card-row {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+	.card button {
+        margin: 10px;
+	}
+	.facts-section {
+		margin: 10px;
+	}
+	.bottom-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 25px;
+		width: 96%
+	}
+	.bottom-text p, .card p {
+		width: 85%
+	}
+	li {
+		list-style-type: disc;
+	}
+}

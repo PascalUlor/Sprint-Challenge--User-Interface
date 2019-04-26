@@ -221,3 +221,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 992px) {
+	.logo-container {
+		padding: 10px;
+		margin: auto;
+		vertical-align: middle;
+	}
+	header {
+		padding: 5px;
+		margin-top: -19px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex-shrink: inherit;
+		width: 92%;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		height: 154px;
+	}
+	nav a {
+		padding: 15px 15px 15px 0;
+		margin: -11px 33px -13px 0;
+	}
+	.container {
+		padding: 20px;
+		margin: auto;
+		width: 96%;
+	}
+	.main-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 165px;
+		flex-shrink: inherit;
+	}
+	.main-content img {
+		margin: auto;
+	}
+	
+	.main-text {
+		text-align: center;
+		margin: auto;
+	}
+	.top-details, .bottom-details {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.features-section, .about-section {
+		width: 96%;
+	}
+	
+	.services-section, .product-section, .vision-section {
+		width: 96%;
+	}
+}
