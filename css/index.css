@@ -87,14 +87,14 @@ nav {
 	vertical-align: middle;
 }
 
-nav a {
+.top-nav {
 	padding: 15px 15px 15px 0;
 	margin: 20px 33px 20px 0;
 	text-decoration: none;
 	color: #000000;
 }
 
-nav a:hover {
+.top-nav:hover {
 	color: #000;
 	border-bottom: 1px solid #000;
 }
