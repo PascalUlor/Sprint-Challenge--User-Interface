@@ -66,6 +66,44 @@ p {
     line-height: 1.4;
 }
 
+header {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 10px;
+	margin-bottom: 50px;
+	z-index: 1;
+	margin-top: -19px;
+}
+
+.logo-container {
+	padding: 10px;
+	vertical-align: middle;
+}
+
+/* nav section */
+
+nav {
+    display: flex;
+	vertical-align: middle;
+}
+
+nav a {
+	padding: 15px 15px 15px 0;
+	margin: 20px 33px 20px 0;
+	text-decoration: none;
+	color: #000000;
+}
+
+nav a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+#cover-image {
+    margin-bottom: 100px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
