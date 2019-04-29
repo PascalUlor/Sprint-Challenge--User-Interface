@@ -136,34 +136,34 @@ h2 {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.a {
+.box:nth-child(1) {
     background: teal;
 }
-.b {
+.box:nth-child(2) {
     background: gold;
 }
-.c {
+.box:nth-child(3) {
     background: cadetblue;
 }
-.d {
+.box:nth-child(4) {
     background: coral;
 }
-.e {
+.box:nth-child(5) {
     background: crimson;
 }
-.f {
+.box:nth-child(6) {
     background: forestgreen;
 }
-.g {
+.box:nth-child(7) {
     background: darkorchid;
 }
-.h {
+.box:nth-child(8) {
     background: hotpink;
 }
-.i {
+.box:nth-child(9) {
     background: indigo;
 }
-.j {
+.box:nth-child(10) {
     background: dodgerblue;
 }
 
